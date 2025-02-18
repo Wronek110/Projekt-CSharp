@@ -24,7 +24,7 @@ namespace projekt_wronek
         {
             ZamowieniaTextBox = new TextBox
             {
-                Location = new System.Drawing.Point(628, 350),
+                Location = new System.Drawing.Point(628, 1350),
                 Size = new System.Drawing.Size(158, 20),
                 ReadOnly = true
             };
@@ -162,7 +162,7 @@ namespace projekt_wronek
             }
             else
             {
-                MessageBox.Show("WprowadŸ nazwê klienta.", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("WprowadÅ¸ nazwÃª klienta.", "BÂ³Â¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -182,7 +182,7 @@ namespace projekt_wronek
             }
             else
             {
-                MessageBox.Show("WprowadŸ nazwê produktu.", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("WprowadÅ¸ nazwÃª produktu.", "BÂ³Â¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -205,7 +205,7 @@ namespace projekt_wronek
             }
             else
             {
-                MessageBox.Show("Wybierz produkt do usuniêcia.", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Wybierz produkt do usuniÃªcia.", "BÂ³Â¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -229,7 +229,7 @@ namespace projekt_wronek
             }
             else
             {
-                MessageBox.Show("Wybierz produkt i wprowadŸ now¹ nazwê.", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Wybierz produkt i wprowadÅ¸ nowÂ¹ nazwÃª.", "BÂ³Â¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -267,7 +267,7 @@ namespace projekt_wronek
             }
             else
             {
-                MessageBox.Show("Wybierz klienta do usuniêcia.", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Wybierz klienta do usuniÃªcia.", "BÂ³Â¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -291,7 +291,7 @@ namespace projekt_wronek
             }
             else
             {
-                MessageBox.Show("Wybierz klienta i wprowadŸ now¹ nazwê.", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Wybierz klienta i wprowadÅ¸ nowÂ¹ nazwÃª.", "BÂ³Â¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -343,7 +343,7 @@ namespace projekt_wronek
             }
             else
             {
-                MessageBox.Show("WprowadŸ nazwê klienta i produktu.", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("WprowadÅ¸ nazwÃª klienta i produktu.", "BÂ³Â¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -365,7 +365,7 @@ namespace projekt_wronek
             }
             else
             {
-                MessageBox.Show("Wybierz zamówienie do usuniêcia.", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Wybierz zamÃ³wienie do usuniÃªcia.", "BÂ³Â¹d", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
         private void ZamowieniaListBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -394,7 +394,7 @@ namespace projekt_wronek
                 }
                 else
                 {
-                    MessageBox.Show("B³¹d formatu ID.", "B³¹d", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("BÂ³Â¹d formatu ID.", "BÂ³Â¹d", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
